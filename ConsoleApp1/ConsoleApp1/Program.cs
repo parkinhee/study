@@ -24,7 +24,7 @@ namespace NullConditionalOperator
             WriteLine($"Count : {a?.Count}");
             WriteLine($"{a?[0]}");
             WriteLine($"{a?[1]}");
-
+            eee
             a = new ArrayList(); // a는 이제 더 이상 null이 아니다.
             a?.Add("야구");  // 배열 a에 "야구" 추가
             a?.Add("축구");  // 배열 a에 "축구" 추가
